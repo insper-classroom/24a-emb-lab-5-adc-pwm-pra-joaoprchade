@@ -22,7 +22,7 @@ typedef struct adc {
 
 void x_task(void *p) {
     adc_t adc_x;
-    adc_x.val = 0;
+    //adc_x.val = 0;
     adc_x.axis = 0;
 
     while (1) {
@@ -41,7 +41,7 @@ void x_task(void *p) {
 
 void y_task(void *p) {
     adc_t adc_y;
-    adc_y.val = 0;
+    //adc_y.val = 0;
     adc_y.axis = 1;
 
     while (1) {
